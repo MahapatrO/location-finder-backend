@@ -1,2 +1,2 @@
-# space-finder-backend
+# location-finder-backend
 AWS CDK Project Demo
