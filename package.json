@@ -22,13 +22,16 @@
     "@types/node": "^18.0.0",
     "@types/prettier": "^2.6.3",
     "aws-cdk": "^2.29.1",
+    "esbuild": "^0.14.47",
     "jest": "^28.1.1",
     "ts-jest": "^28.0.5",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   },
   "dependencies": {
+    "@types/uuid": "^8.3.4",
     "aws-cdk-lib": "^2.29.1",
-    "constructs": "^10.1.42"
+    "constructs": "^10.1.42",
+    "uuid": "^8.3.2"
   }
 }
