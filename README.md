@@ -14,7 +14,12 @@ create cdk.json
 cdk synth --- it will create cdk.out
 
 
-
+ 
 # AWS Lambda Nodejs
 
 npm install --save-dev esbuild@0
+
+# Webpack setup (optional) - if you are using AWS Lambda nodejs webpack setup is not required
+npm i -D webpack webpack-cli ts-loader @types/webpack
+
+create file - webpack.config.ts
